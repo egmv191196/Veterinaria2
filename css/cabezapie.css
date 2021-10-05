@@ -1,0 +1,82 @@
+@import url ('https://fonts.googleapis.com/css2? family = Mulish: ital, wght @ 0,200; 0,300; 0,400; 0,500; 0,600; 0,700; 0,800; 0,900; 1,200; 1,300; 1,400; 1,500; 1,600; 1,700; 1,800; 1,900 & display = swap ');
+body {
+    overflow-x: hidden;
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+  /*-------MENU -------*/
+  .navbar-expand-md .navbar-nav {
+		-ms-flex-direction: row;
+		flex-direction: row;
+		margin-right: 3rem;
+  }
+  .navbar {
+	  font-size: 1.0rem;
+  	letter-spacing: .1rem;
+  	height: auto;
+	  background-color: rgba(212, 34, 153, 0.781);
+  }
+  .navbar-brand img{
+	  height: 5rem;
+  	overflow: auto;
+	  padding: 0 auto;
+  	margin: 0 auto;
+	  margin-left: 8rem; 
+  }
+  .navbar-toggler{
+    color: rgb(161,132,192);
+  }
+  .dropdown-menu {
+	  position: absolute;
+	  top: 100%;
+	  left: 0;
+	  z-index: 1000;
+	  display: none;
+	  float: left;
+	  min-width: 10rem;
+	  padding: 0rem 0; 
+	  margin: .125rem 0 0;
+	  font-size: 1rem;
+	  color: #1689fd00;
+	  text-align: left;
+	  list-style: none; 
+	  background-clip: padding-box; 
+	  border: 1px solid rgba(255, 255, 255, 0);
+	  border-radius: .25rem;
+  }
+  .dropdown-item {
+	  display: block;
+	  width: 100%;
+	  padding: .25rem 1.5rem;
+	  clear: both;
+	  font-weight: 400;
+	  color: #ffffff;
+	  text-align: inherit;
+	  white-space: nowrap;
+  	background-color: rgb(100 93 199 / 77%);
+	  border: 0;
+  	font-family: 'Quicksand', sans-serif;
+	  font-size: 20px;
+  }
+  .navbar-nav li{
+	  padding-right: 0.4rem;
+  }
+  .navbar-img img{
+	  width: 2rem;
+	  height: 2rem;
+  }
+  .navbar-black .navbar-nav .nav-link {
+	  color: #ffffff; 
+	  padding-top: .8rem;
+	  font-family: 'Quicksand', sans-serif;
+	  font-size: 20px;
+  }
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .nav-link:hover{
+	  color: "#1ebba3";
+  }
+  
